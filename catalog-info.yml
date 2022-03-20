@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: testbackstage
+  links:
+    - url: https://github.com/eusouodaniell/test-backstage
+      title: Repo test backstage
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-c
