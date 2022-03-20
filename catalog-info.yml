@@ -12,3 +12,4 @@ spec:
   type: asyncapi
   lifecycle: experimental
   owner: team-c
+  definition: |
