@@ -1,6 +1,6 @@
 
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 
 metadata:
   name: testbackstage
@@ -9,7 +9,6 @@ metadata:
       title: Repo test backstage
       icon: github
 spec:
-  type: asyncapi
+  type: service
   lifecycle: experimental
   owner: team-c
-  definition: |
