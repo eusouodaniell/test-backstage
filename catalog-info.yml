@@ -8,6 +8,9 @@ metadata:
     - url: https://github.com/eusouodaniell/test-backstage
       title: Repo test backstage
       icon: github
+  annotations:
+    github.com/project-slug: eusouodaniell/test-backstage
+    
 spec:
   type: service
   lifecycle: experimental
